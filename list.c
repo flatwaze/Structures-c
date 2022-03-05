@@ -15,7 +15,7 @@ int length(Node *list);
 int findByIndex(Node *list, int index);
 int findByData(Node *list, int data);
 void insert(Node *list, int data, int index);
-int delete (Node *list, int index);
+int delete(Node *list, int index);
 
 void print(Node *list)
 {
