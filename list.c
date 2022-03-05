@@ -150,6 +150,7 @@ int delete (Node *list, int index)
 
 int main()
 {
+    printf("Check...\n");
     Node *list = NULL;
     for (int i = 0; i < 10; i++)
         push(&list, i);
