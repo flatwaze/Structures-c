@@ -125,7 +125,7 @@ void insert(Node *list, int data, int index)
 }
 
 // starts from 1
-int delete (Node *list, int index)
+int delete(Node *list, int index)
 {
     int i = 0;
     Node *tmp = list;
